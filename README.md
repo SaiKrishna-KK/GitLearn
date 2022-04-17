@@ -10,6 +10,6 @@ Step-7: git checkout "branch name" [desc- will help us to switch branches]<br />
 Step-8: git merge "branch name" [desc- will merge the data from that branch with the current branch]<br />
 Step-9: git remote add origin (insert either the ssh link or the http link) [desc- this will connect with the git repo]<br />
 Step-10: git push -u origin main [desc- this will ask the user name and the pass which will the token access key for the account. make sure you configure that before hand.]<br />
-<h2> Additional Commands <h2>
+<h2> Additional Commands </h2>
   git branch -M (name to be changed to) <br>
   [desc : this is used to change the name of the master branch]
