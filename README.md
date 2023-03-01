@@ -1,20 +1,43 @@
-<h1>GIT COMMANDS AND THEIR FUNCTIONS</h1>
-<h2>Installation:</h2>
-`brew install git`: This command installs git on your local machine.
-<h2>Initialization:</h2>
-`git init`: This command initializes a new git repository in your current directory.
-<h2>Staging:</h2>
-- `git add 'file name'`: This command stages the specified file for commit.
-- `git add .`: This command stages all files in the current directory for commit.
-<h2>Committing:</h2>
-`git commit -m 'commit message'`: This command commits the staged changes to the repository with a descriptive message.
-<h2>Branching:</h2>
-- `git checkout -b 'branch name'`: This command creates a new branch from the current branch and switches to it.
-- `git checkout 'branch name'`: This command switches to an existing branch.
-- `git merge 'branch name'`: This command merges the specified branch into the current branch.
-<h2>Connecting to a Remote Repository:</h2>
-`git remote add origin (insert either the ssh link or the http link)`: This command connects your local repository to a remote repository.
-<h2>Pushing:</h2>
-`git push -u origin main`: This command pushes your changes to the remote repository.
-<h2>Additional Commands:</h2>
-`git branch -M 'new name'`: This command renames the current branch to the specified name.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Git Commands</title>
+	<style>
+		h1 {
+			font-size: 32px;
+			font-weight: bold;
+			margin-bottom: 16px;
+		}
+		h2 {
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 8px;
+		}
+		p {
+			font-size: 16px;
+			margin-bottom: 8px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Git Commands</h1>
+	<h2>Basic Commands</h2>
+	<p><strong>git init</strong>: Initializes a new Git repository.</p>
+	<p><strong>git add &lt;file&gt;</strong>: Adds or updates the specified file to the staging area.</p>
+	<p><strong>git commit -m &lt;message&gt;</strong>: Commits changes to the current branch with a commit message.</p>
+	<p><strong>git status</strong>: Shows the status of the working directory and staging area.</p>
+	<p><strong>git log</strong>: Shows the commit history for the current branch.</p>
+	<p><strong>git branch</strong>: Shows a list of local branches.</p>
+	<p><strong>git checkout &lt;branch&gt;</strong>: Switches to the specified branch.</p>
+	<p><strong>git merge &lt;branch&gt;</strong>: Merges the specified branch with the current branch.</p>
+	<p><strong>git push</strong>: Pushes changes to the remote repository.</p>
+	<h2>Additional Commands</h2>
+	<p><strong>git clone &lt;url&gt;</strong>: Clones a remote repository to the local machine.</p>
+	<p><strong>git pull</strong>: Pulls changes from the remote repository to the local machine.</p>
+	<p><strong>git remote add &lt;name&gt; &lt;url&gt;</strong>: Adds a new remote repository with the specified name and URL.</p>
+	<p><strong>git remote -v</strong>: Shows a list of remote repositories and their URLs.</p>
+	<p><strong>git config</strong>: Sets configuration options for Git.</p>
+	<p><strong>git stash</strong>: Stashes changes in the working directory.</p>
+	<p><strong>git tag &lt;name&gt;</strong>: Creates a new tag with the specified name.</p>
+</body>
+</html>
