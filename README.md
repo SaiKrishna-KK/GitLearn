@@ -1,24 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Git Commands</title>
-	<style>
-		h1 {
-			font-size: 32px;
-			font-weight: bold;
-			margin-bottom: 16px;
-		}
-		h2 {
-			font-size: 24px;
-			font-weight: bold;
-			margin-bottom: 8px;
-		}
-		p {
-			font-size: 16px;
-			margin-bottom: 8px;
-		}
-	</style>
-</head>
+
 <body>
 	<h1>Git Commands</h1>
 	<h2>Basic Commands</h2>
