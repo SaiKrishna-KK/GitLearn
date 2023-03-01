@@ -1,25 +1,107 @@
-<!DOCTYPE html>
-<html>
+# Git Commands and Their Functions
 
-<body>
-	<h1>Git Commands</h1>
-	<h2>Basic Commands</h2>
-	<p><strong>git init</strong>: Initializes a new Git repository.</p>
-	<p><strong>git add &lt;file&gt;</strong>: Adds or updates the specified file to the staging area.</p>
-	<p><strong>git commit -m &lt;message&gt;</strong>: Commits changes to the current branch with a commit message.</p>
-	<p><strong>git status</strong>: Shows the status of the working directory and staging area.</p>
-	<p><strong>git log</strong>: Shows the commit history for the current branch.</p>
-	<p><strong>git branch</strong>: Shows a list of local branches.</p>
-	<p><strong>git checkout &lt;branch&gt;</strong>: Switches to the specified branch.</p>
-	<p><strong>git merge &lt;branch&gt;</strong>: Merges the specified branch with the current branch.</p>
-	<p><strong>git push</strong>: Pushes changes to the remote repository.</p>
-	<h2>Additional Commands</h2>
-	<p><strong>git clone &lt;url&gt;</strong>: Clones a remote repository to the local machine.</p>
-	<p><strong>git pull</strong>: Pulls changes from the remote repository to the local machine.</p>
-	<p><strong>git remote add &lt;name&gt; &lt;url&gt;</strong>: Adds a new remote repository with the specified name and URL.</p>
-	<p><strong>git remote -v</strong>: Shows a list of remote repositories and their URLs.</p>
-	<p><strong>git config</strong>: Sets configuration options for Git.</p>
-	<p><strong>git stash</strong>: Stashes changes in the working directory.</p>
-	<p><strong>git tag &lt;name&gt;</strong>: Creates a new tag with the specified name.</p>
-</body>
-</html>
+Below are some commonly used Git commands and their functions.
+
+## `git init`
+
+Initialize a new Git repository.
+
+## `git add [file]`
+
+Add a file or files to the staging area.
+
+## `git commit -m "message"`
+
+Commit the staged changes to the local repository with a commit message.
+
+## `git status`
+
+Display the status of the working directory and staging area.
+
+## `git log`
+
+Display the commit history.
+
+## `git branch`
+
+List all the branches in the repository.
+
+## `git checkout [branch]`
+
+Switch to a different branch.
+
+## `git merge [branch]`
+
+Merge changes from a specified branch into the current branch.
+
+## `git remote add [name] [URL]`
+
+Add a new remote repository with a name and URL.
+
+## `git push [remote] [branch]`
+
+Push the local commits to the remote repository.
+
+## `git pull [remote] [branch]`
+
+Pull the latest changes from a remote repository.
+
+## `git clone [URL]`
+
+Clone a remote repository to the local machine.
+
+## `git config [name] [value]`
+
+Set a configuration variable in Git.
+
+## `git diff [file]`
+
+Show the difference between the working directory and the repository.
+
+## `git reset [file]`
+
+Unstage a file or files from the staging area.
+
+## `git rm [file]`
+
+Remove a file from the repository.
+
+## `git mv [old_file] [new_file]`
+
+Rename or move a file in the repository.
+
+## `git remote -v`
+
+List all the remote repositories.
+
+## `git remote show [remote]`
+
+Display information about a specific remote repository.
+
+## `git branch -d [branch]`
+
+Delete a branch.
+
+## `git stash`
+
+Save the current changes to the stash.
+
+## `git stash pop`
+
+Restore the most recently saved changes from the stash.
+
+## `git stash list`
+
+List all the saved stashes.
+
+## `git stash drop`
+
+Remove the most recently saved stash.
+
+## `git branch -M [new_branch_name]`
+
+Rename the current branch to a new name.
+
+---
+
+I hope this list helps you get started with using Git! For more information, check out the official Git documentation at https://git-scm.com/doc.
