@@ -1,11 +1,10 @@
 # GitLearn - Interactive Git & GitHub Learning Platform
-
-A beautiful, modern web application designed to teach Git and GitHub from beginner to professional level through interactive tutorials, hands-on practice, and real-world projects.
-
 ![GitLearn](https://img.shields.io/badge/License-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-19+-blue.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-blue.svg)
 ![Material--UI](https://img.shields.io/badge/Material--UI-7+-purple.svg)
+
+A beautiful, modern web application designed to teach Git and GitHub from beginner to professional level through interactive tutorials, hands-on practice, and real-world projects.
 
 ![GitLearn Homepage](./HomeScreen-GitLearn.png)
 
