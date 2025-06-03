@@ -1,107 +1,63 @@
-# Git Commands and Their Functions
+# GitLearn
 
-Below are some commonly used Git commands and their functions.
+An interactive web application for learning Git and GitHub through hands-on tutorials and a final project to build your own version control system.
 
-## `git init`
+## Features
 
-Initialize a new Git repository.
+- Interactive Git tutorials with step-by-step guidance
+- Live Git command practice environment
+- Visual representation of Git concepts
+- Final project to build your own version control system
+- Modern, responsive UI built with React and Material-UI
 
-## `git add [file]`
+## Prerequisites
 
-Add a file or files to the staging area.
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-## `git commit -m "message"`
+## Getting Started
 
-Commit the staged changes to the local repository with a commit message.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SaiKrishna-KK/git-learn.git
+   cd git-learn
+   ```
 
-## `git status`
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Display the status of the working directory and staging area.
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-## `git log`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Display the commit history.
+## Project Structure
 
-## `git branch`
+```
+git-learn/
+├── src/
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Main application pages
+│   ├── styles/        # Global styles and themes
+│   └── utils/         # Utility functions
+├── public/            # Static assets
+└── package.json       # Project dependencies
+```
 
-List all the branches in the repository.
+## Learning Path
 
-## `git checkout [branch]`
+1. **Tutorials**: Start with the interactive tutorials to learn Git basics
+2. **Interactive Demo**: Practice Git commands in a safe environment
+3. **Final Project**: Build your own version control system to understand Git internals
 
-Switch to a different branch.
+## Contributing
 
-## `git merge [branch]`
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Merge changes from a specified branch into the current branch.
+## License
 
-## `git remote add [name] [URL]`
-
-Add a new remote repository with a name and URL.
-
-## `git push [remote] [branch]`
-
-Push the local commits to the remote repository.
-
-## `git pull [remote] [branch]`
-
-Pull the latest changes from a remote repository.
-
-## `git clone [URL]`
-
-Clone a remote repository to the local machine.
-
-## `git config [name] [value]`
-
-Set a configuration variable in Git.
-
-## `git diff [file]`
-
-Show the difference between the working directory and the repository.
-
-## `git reset [file]`
-
-Unstage a file or files from the staging area.
-
-## `git rm [file]`
-
-Remove a file from the repository.
-
-## `git mv [old_file] [new_file]`
-
-Rename or move a file in the repository.
-
-## `git remote -v`
-
-List all the remote repositories.
-
-## `git remote show [remote]`
-
-Display information about a specific remote repository.
-
-## `git branch -d [branch]`
-
-Delete a branch.
-
-## `git stash`
-
-Save the current changes to the stash.
-
-## `git stash pop`
-
-Restore the most recently saved changes from the stash.
-
-## `git stash list`
-
-List all the saved stashes.
-
-## `git stash drop`
-
-Remove the most recently saved stash.
-
-## `git branch -M [new_branch_name]`
-
-Rename the current branch to a new name.
-
----
-
-I hope this list helps you get started with using Git! For more information, check out the official Git documentation at https://git-scm.com/doc.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
