@@ -85,7 +85,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/GitLearn">
         <Box sx={{ 
           minHeight: '100vh',
           background: 'linear-gradient(135deg, #0a0e1a 0%, #1a1f2e 100%)',
