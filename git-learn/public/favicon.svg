@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" fill="#667eea" rx="4"/>
+  <!-- Git branch icon -->
+  <path d="M8 6a2 2 0 1 1 0 4c-.55 0-1 .45-1 1v10a2 2 0 1 1-4 0V11c0-2.21 1.79-4 4-4a2 2 0 0 1 0-4zm16 0a2 2 0 1 1 0 4c-1.1 0-2 .9-2 2v2c0 1.1-.9 2-2 2h-4v2a2 2 0 1 1-4 0v-2c0-1.1.9-2 2-2h4V12c0-2.21 1.79-4 4-4a2 2 0 0 1 0-4z" fill="white"/>
+  <!-- Small dots for commits -->
+  <circle cx="8" cy="8" r="1.5" fill="white"/>
+  <circle cx="24" cy="8" r="1.5" fill="white"/>
+  <circle cx="16" cy="18" r="1.5" fill="white"/>
+</svg> 
