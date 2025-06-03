@@ -1,12 +1,19 @@
-# GitLearn - Interactive Git & GitHub Learning Platform
+# GitLearn 🌿 - Interactive Git & GitHub Learning Platform
+
+A beautiful, modern web application designed to teach Git and GitHub from beginner to professional level through interactive tutorials, hands-on practice, and real-world projects.
+
+## 🌐 **Live Demo**
+
+**🚀 Try GitLearn now:** [https://saikrishna-kk.github.io/GitLearn](https://saikrishna-kk.github.io/GitLearn)
+
+*No installation required! Start learning Git directly in your browser.*
+
+![GitLearn Homepage](./HomeScreen-GitLearn.png)
+
 ![GitLearn](https://img.shields.io/badge/License-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-19+-blue.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.9+-blue.svg)
 ![Material--UI](https://img.shields.io/badge/Material--UI-7+-purple.svg)
-
-A beautiful, modern web application designed to teach Git and GitHub from beginner to professional level through interactive tutorials, hands-on practice, and real-world projects.
-
-![GitLearn Homepage](./HomeScreen-GitLearn.png)
 
 ## ✨ Features
 
@@ -62,6 +69,7 @@ Once setup is complete, GitLearn will be available at:
 npm start          # Start development server
 npm run build      # Create production build  
 npm test           # Run test suite
+npm run deploy     # Deploy to GitHub Pages (maintainers only)
 ```
 
 ## 📚 **What You'll Learn**
@@ -84,6 +92,24 @@ npm test           # Run test suite
 - **RAM**: 4GB minimum (8GB recommended)  
 - **Storage**: 2GB free space
 - **Internet**: Stable connection for dependencies
+
+## 🌍 **Deployment**
+
+GitLearn is automatically deployed to GitHub Pages using GitHub Actions:
+
+- **Live URL**: [https://saikrishna-kk.github.io/GitLearn](https://saikrishna-kk.github.io/GitLearn)
+- **Auto-deployment**: Every push to `master` branch triggers a new deployment
+- **Build time**: ~2-3 minutes from commit to live
+- **CDN**: Served globally via GitHub's CDN for fast loading
+
+### **For Contributors:**
+```bash
+# Deploy manually (if you have permissions)
+npm run deploy
+
+# Or just push to master - GitHub Actions handles the rest!
+git push origin master
+```
 
 ## 🐛 **Troubleshooting**
 
