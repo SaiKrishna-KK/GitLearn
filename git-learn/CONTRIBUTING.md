@@ -41,13 +41,13 @@ Thank you for your interest in contributing to GitLearn! This project aims to ma
 
 2. **Clone your fork**
 ```bash
-git clone https://github.com/yourusername/git-learn.git
+git clone https://github.com/SaiKrishna-KK/git-learn.git
 cd git-learn
 ```
 
 3. **Add upstream remote**
 ```bash
-git remote add upstream https://github.com/original-owner/git-learn.git
+git remote add upstream https://github.com/SaiKrishna-KK/git-learn.git
 ```
 
 4. **Install dependencies**

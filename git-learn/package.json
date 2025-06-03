@@ -2,13 +2,13 @@
   "name": "git-learn",
   "version": "1.0.0",
   "description": "Interactive Git & GitHub learning platform with tutorials, practice challenges, and hands-on projects",
-  "homepage": "https://github.com/yourusername/git-learn",
+  "homepage": "https://github.com/SaiKrishna-KK/GitLearn",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/git-learn.git"
+    "url": "https://github.com/SaiKrishna-KK/GitLearn.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/git-learn/issues"
+    "url": "https://github.com/SaiKrishna-KK/GitLearn/issues"
   },
   "keywords": [
     "git",
