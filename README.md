@@ -1,4 +1,4 @@
-# GitLearn 🌿 - Interactive Git & GitHub Learning Platform
+# GitLearn - Interactive Git & GitHub Learning Platform
 
 A beautiful, modern web application designed to teach Git and GitHub from beginner to professional level through interactive tutorials, hands-on practice, and real-world projects.
 
